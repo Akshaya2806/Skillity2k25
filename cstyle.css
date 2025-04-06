@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+}
+nav{
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+
+}
+li,h1,ul{
+    display: inline;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 30%;
+    font-size: 20px;
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: #00ADEF;
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+}
+h1 img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h2 {
+    font-size: 24px;
+    color: #00ADEF;
+    margin-left: 10px;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none; 
+    color: white; 
+}
+
+nav ul li a:hover {
+    color: #00ADEF;
+    cursor: pointer;
+}
+.headings{
+    text-align: center;
+}
+.headings h1{
+    color: #00ADEF;
+    display: block;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.headings p{
+    color: white;
+    font-size: 24px;
+}
+.course-card p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.course-card h3{
+    color: #00ADEF;
+    font-size: 30px;
+    text-align: center;
+}
+.course-card a{
+    color: #00ADEF;
+}
+.course-card a:hover{
+    color: white;
+    cursor: pointer;
+}
+.course-card{
+    padding: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    display: inline-block;
+    width: 400px;
+    min-height: 500px;
+    margin-right: 40px;
+    align-items: center;
+}
+.course-card img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+.courses-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.contact{
+    text-align: center;
+    font-size: 25px;
+}
+.contact a{
+    color: white;
+    padding-bottom: 20px;
+}
+.contact a:hover{
+    color: #00adef;
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
